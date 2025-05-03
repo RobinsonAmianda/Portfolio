@@ -169,20 +169,21 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 70vh;
 }
 #profile1 {
   border-radius: 50%;
-  /* width: 23rem;
-  height: 23rem; */
+  width: 24rem;
+  height: 17rem;
 }
 
 .section__pic-container {
   display: flex;
-  height: 300px;
-  width: 300px;
-  margin: auto 0;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
+
 
 .section__text {
   align-self: center;
@@ -356,6 +357,7 @@ a .btn {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .article-container {
@@ -363,9 +365,9 @@ a .btn {
   text-align: left;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 2.0rem;
   margin: auto;
-  /* margin: 0 3rem; */
+  margin: 0 3rem;
   justify-content: space-around;
 }
 
